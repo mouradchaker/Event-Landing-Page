@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+
+nav .logo img {
+  width: 300px;
+}
+nav .info a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-right: 40px;
+}
+header {
+  margin-top: 100px;
+  text-align: center;
+}
+header input {
+  height: 20px;
+  width: 250px;
+}
+header .start {
+  height: 30px;
+  width: 130px;
+  background-color: rgb(255, 255, 0);
+  border: 0px;
+  font-weight: 800;
+}
+main .prncpl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+main .logo1 i {
+  color: rgb(248, 116, 68);
+  font-size: 45px;
+  margin-right: 40px;
+}
+main .prncpl p {
+  font-size: 18px;
+}
+main .prncpl2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+main .prncpl2 p {
+  font-size: 18px;
+}
+main .prncpl3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+main .prncpl3 p {
+  font-size: 18px;
+}
+video {
+  margin-left: 450px;
+  margin-bottom: 80px;
+}
+main .info1 {
+  border: 1px solid black;
+  width: 300px;
+  text-align: center;
+}
+main .info2 {
+  border: 1px solid black;
+  width: 300px;
+  text-align: center;
+  margin: 0 20px 0 20px;
+}
+main .title {
+  background-color: rgb(214, 212, 212);
+  padding: 15px 0 15px 0;
+}
+main .prix {
+  font-size: 17px;
+  line-height: 25px;
+  padding-top: 20px;
+}
+main .prix input {
+  width: 90px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(255, 217, 0);
+  border: 0px;
+  font-size: 18px;
+}
+main .prncpl4 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+footer {
+  background-color: rgb(214, 212, 212);
+  padding: 20px 20px 20px 0;
+  text-align: right;
+  margin: 0 200px 0 200px;
+  line-height: 25px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin-right: 20px;
+}
+@media (max-width: 1160px) {
+  video {
+    margin-left: 200px;
+  }
+}
+@media (max-width: 888px) {
+  video {
+    margin-left: 50px;
+  }
+  nav {
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 730px) {
+  video {
+    margin-left: 0px;
+    width: 500px;
+  }
+  nav {
+    padding: 5px 0px;
+  }
+  nav .logo img {
+    width: 200px;
+  }
+  nav .info a {
+    font-size: 17px;
+    margin-right: 20px;
+  }
+  footer {
+    text-align: right;
+    margin: 0 100px 0 100px;
+  }
+}
+@media (max-width: 490px) {
+  video {
+    margin-left: 0px;
+    width: 350px;
+  }
+
+  nav .logo img {
+    width: 150px;
+  }
+  nav .info a {
+    font-size: 15px;
+    margin-right: 6px;
+  }
+  footer {
+    text-align: right;
+    margin: 0 0 0 0;
+  }
+  main .prncpl4 {
+    display: block;
+    margin-left: 30px;
+  }
+  main .info2 {
+    margin: 10px 0 10px 0;
+  }
+  main .logo1 i {
+    font-size: 40px;
+    margin-right: 20px;
+  }
+  main .prncpl p {
+    font-size: 16px;
+  }
+  main .prncpl2 p {
+    font-size: 16px;
+  }
+  main .prncpl3 p {
+    font-size: 16px;
+  }
+  main .prncpl h2 {
+    font-size: 17px;
+  }
+  main .prncpl2 h2 {
+    font-size: 17px;
+  }
+  main .prncpl3 h2 {
+    font-size: 17px;
+  }
+}
